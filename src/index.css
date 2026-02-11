@@ -7,3 +7,10 @@ body {
   background-color: rgb(210, 206, 206);
   font-family: Arial, sans-serif;
 }
+
+@media (max-width: 1024px) {
+  .food_list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
