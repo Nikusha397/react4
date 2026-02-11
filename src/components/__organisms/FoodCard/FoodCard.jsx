@@ -4,7 +4,7 @@ import Text from "../../__atoms/Text/Text";
 import IconGroup from "../../__molecules/IconGroup/IconGroup";
 import CaloriesInfo from "../../__molecules/CaloriesInfo/CaloriesInfo";
 import PriceSection from "../../__molecules/PriceSection/PriceSection";
-import groupIcon from "../../../assets/icons/exclamation.svg";
+import exclamationIcon from "../../../assets/icons/exclamation.svg";
 
 function FoodCard({ food }) {
   return (
@@ -16,12 +16,10 @@ function FoodCard({ food }) {
           className="card_image"
         />
         <div className="card_info_icon">
-          <img src={groupIcon} alt="info" />
+  <img src={exclamationIcon} alt="exclamation" />
         </div>
       </div>
-
       <div className="card_content">
-
         <div className="title_icons_row">
           <Title>{food.title}</Title>
           <IconGroup icons={food.icons} />
