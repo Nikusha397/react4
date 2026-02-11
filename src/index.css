@@ -13,4 +13,15 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+    .food_list .card {
+    width: 90%;
+    max-width: none;
+  }
+
+  .card_image {
+    height: auto;
+    object-fit: cover;
+  }
+
 }
