@@ -4,7 +4,7 @@ import Text from "../../__atoms/Text/Text";
 import IconGroup from "../../__molecules/IconGroup/IconGroup";
 import CaloriesInfo from "../../__molecules/CaloriesInfo/CaloriesInfo";
 import PriceSection from "../../__molecules/PriceSection/PriceSection";
-import groupIcon from "../../../assets/icons/group.svg";
+import groupIcon from "../../../assets/icons/exclamation.svg";
 
 function FoodCard({ food }) {
   return (
