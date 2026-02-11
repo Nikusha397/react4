@@ -1,0 +1,31 @@
+.card {
+  width: 360px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+}
+
+.card_image {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 216px;
+  object-fit: cover;
+}
+
+.card_content {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.title_icons_row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}

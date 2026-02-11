@@ -1,0 +1,7 @@
+.calories {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  color: #a5adbb;
+}

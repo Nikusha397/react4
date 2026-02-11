@@ -1,0 +1,22 @@
+.price_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prices {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sale {
+  font-size: 26px;
+  color: #081f32;
+}
+
+.main {
+  font-size: 20px;
+  color: #f8593b;
+  text-decoration: line-through;
+}

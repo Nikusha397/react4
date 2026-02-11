@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(210, 206, 206);
+  font-family: Arial, sans-serif;
+}

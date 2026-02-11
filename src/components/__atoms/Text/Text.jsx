@@ -1,0 +1,7 @@
+import "./Text.css";
+
+function Text({ children }) {
+  return <p className="text">{children}</p>;
+}
+
+export default Text;
