@@ -4,28 +4,43 @@ import Text from "../../__atoms/Text/Text";
 import IconGroup from "../../__molecules/IconGroup/IconGroup";
 import CaloriesInfo from "../../__molecules/CaloriesInfo/CaloriesInfo";
 import PriceSection from "../../__molecules/PriceSection/PriceSection";
+import groupIcon from "../../../assets/icons/group.svg";
 
 function FoodCard({ food }) {
   return (
     <div className="card">
-      <img src={food.image} alt={food.title} className="card_image" />
-<div className="card_content">
-  <div className="title_icons_row">
-    <Title>{food.title}</Title>
-    <IconGroup icons={food.icons} />
-  </div>
+      <div className="card_image_wrapper">
+        <img
+          src={food.image}
+          alt={food.title}
+          className="card_image"
+        />
+        <div className="card_info_icon">
+          <img src={groupIcon} alt="info" />
+        </div>
+      </div>
 
-  <Text>{food.description}</Text>
+      <div className="card_content">
 
-  <CaloriesInfo
-    calories={food.calories}
-    pfc={food.pfc}
-    temp={food.temp}
-  />
+        <div className="title_icons_row">
+          <Title>{food.title}</Title>
+          <IconGroup icons={food.icons} />
+        </div>
 
-  <PriceSection sale={food.sale} main={food.main} />
-    </div>
+        <Text>{food.description}</Text>
 
+        <CaloriesInfo
+          calories={food.calories}
+          pfc={food.pfc}
+          temp={food.temp}
+        />
+
+        <PriceSection
+          sale={food.sale}
+          main={food.main}
+        />
+
+      </div>
     </div>
   );
 }
