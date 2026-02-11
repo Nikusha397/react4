@@ -6,10 +6,6 @@
 body {
   background-color: rgb(210, 206, 206);
   font-family: Arial, sans-serif;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 @media (max-width: 1024px) {
